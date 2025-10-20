@@ -1,0 +1,118 @@
+{
+  "stopwords": [
+    "the", "be", "to", "of", "and", "a", "in", "that", "have", "i",
+    "it", "for", "not", "on", "with", "he", "as", "you", "do", "at",
+    "this", "but", "his", "by", "from", "they", "we", "say", "her", "she",
+    "or", "an", "will", "my", "one", "all", "would", "there", "their",
+    "what", "so", "up", "out", "if", "about", "who", "get", "which", "go",
+    "me", "when", "make", "can", "like", "time", "no", "just", "him", "know",
+    "take", "people", "into", "year", "your", "good", "some", "could", "them",
+    "see", "other", "than", "then", "now", "look", "only", "come", "its", "over",
+    "think", "also", "back", "after", "use", "two", "how", "our", "work",
+    "well", "way", "even", "new", "want", "because", "any", "these", "give",
+    "day", "most", "was", "are", "been", "has", "had", "were", "said", "did",
+    "getting", "made", "find", "where", "much", "too", "very", "still", "being", "going"
+  ],
+  
+  "noise_words": [
+    "amazon", "item", "product", "bought", "purchase", "shipping", "delivery",
+    "seller", "store", "marketplace", "vendor", "shop", "bought", "buy", "price",
+    "ordered", "received", "package", "arrived", "customer", "service",
+    "nike", "adidas", "zara", "hm", "uniqlo", "gap", "forever21", "shein",
+    "gucci", "prada", "chanel", "dior", "versace", "armani", "burberry",
+    "good", "nice", "great", "bad", "perfect", "love", "hate", "amazing",
+    "terrible", "awesome", "fantastic", "horrible", "excellent", "poor"
+  ],
+  
+  "style_words": {
+    "materials": [
+      "cotton", "silk", "leather", "denim", "wool", "lace", "velvet", "satin",
+      "polyester", "nylon", "spandex", "chiffon", "cashmere", "suede", "linen",
+      "jersey", "tweed", "corduroy", "fleece", "mesh", "canvas", "flannel"
+    ],
+    
+    "elements": [
+      "collar", "sleeve", "button", "zipper", "pocket", "ruffle", "pleat",
+      "hem", "cuff", "seam", "stitching", "belt", "buckle", "snap", "hook",
+      "lapel", "waistband", "drawstring", "elastic", "fringe", "trim", "panel"
+    ],
+    
+    "fits": [
+      "fitted", "loose", "oversized", "slim", "wide", "cropped", "flared",
+      "tapered", "relaxed", "tight", "baggy", "skinny", "straight", "bootcut",
+      "regular", "snug", "roomy", "tailored", "structured", "flowing"
+    ],
+    
+    "designs": [
+      "embroidered", "distressed", "printed", "woven", "knitted", "quilted",
+      "pleated", "ruffled", "layered", "textured", "patterned", "striped",
+      "floral", "plaid", "checkered", "solid", "gradient", "ombre"
+    ],
+    
+    "details": [
+      "neckline", "vneck", "crewneck", "turtleneck", "halter", "scoop",
+      "asymmetric", "cutout", "sheer", "opaque", "lined", "unlined",
+      "sleeveless", "longsleeve", "shortsleeve", "midi", "maxi", "mini"
+    ]
+  },
+  
+  "pos_weights": {
+    "static": {
+      "ADJ": 1.5,
+      "NOUN": 1.2,
+      "VERB": 0.5,
+      "ADV": 0.3,
+      "default": 1.0
+    },
+    
+    "dynamic": {
+      "formal": {
+        "ADJ": 1.2,
+        "NOUN": 1.5
+      },
+      "romantic": {
+        "ADJ": 1.8,
+        "NOUN": 1.0
+      },
+      "casual": {
+        "ADJ": 1.3,
+        "NOUN": 1.2
+      },
+      "streetwear": {
+        "NOUN": 1.4,
+        "ADJ": 1.3
+      },
+      "minimalist": {
+        "NOUN": 1.5,
+        "ADJ": 1.1
+      },
+      "gothic": {
+        "ADJ": 1.6,
+        "NOUN": 1.2
+      },
+      "bohemian_fashion": {
+        "ADJ": 1.7,
+        "NOUN": 1.1
+      },
+      "luxury": {
+        "NOUN": 1.6,
+        "ADJ": 1.2
+      }
+    },
+    
+    "semantic_weights": {
+      "material_noun": 1.5,
+      "element_noun": 1.4,
+      "fit_adj": 1.5,
+      "texture_adj": 1.6,
+      "generic_adj": 0.8
+    }
+  },
+  
+  "specificity_params": {
+    "method": "hybrid",
+    "entropy_weight": 0.6,
+    "ratio_weight": 0.4,
+    "min_frequency": 2
+  }
+}
