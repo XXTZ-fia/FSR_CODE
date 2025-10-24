@@ -1,0 +1,213 @@
+============================================================
+FASHION SEMANTIC SPACE ANALYSIS REPORT
+Enhanced with Style Specificity & POS Weighting
+============================================================
+Generated: 2025-10-19 03:13:54
+
+DATA OVERVIEW
+----------------------------------------
+Total styles analyzed: 15
+Total words processed: 17,442,151
+Unique words: 47,226
+
+KEY FEATURES BY STYLE
+----------------------------------------
+
+Y2K_Aesthetic:
+  • fairy                (final: 0.178)
+    TF-IDF: 0.404, Specificity: 0.367, POS: 1.20
+  • harajuku             (final: 0.171)
+    TF-IDF: 0.328, Specificity: 0.435, POS: 1.20
+  • gothic               (final: 0.155)
+    TF-IDF: 0.324, Specificity: 0.319, POS: 1.50
+  • fairy grunge         (final: 0.132)
+    TF-IDF: 0.398, Specificity: 0.392, POS: 0.85
+  • goth                 (final: 0.086)
+    TF-IDF: 0.205, Specificity: 0.281, POS: 1.50
+
+athleisure:
+  • lulu                 (final: 0.308)
+    TF-IDF: 0.376, Specificity: 0.546, POS: 1.50
+  • workouts             (final: 0.299)
+    TF-IDF: 0.431, Specificity: 0.578, POS: 1.20
+  • lululemon            (final: 0.290)
+    TF-IDF: 0.460, Specificity: 0.630, POS: 1.00
+  • squat                (final: 0.120)
+    TF-IDF: 0.163, Specificity: 0.489, POS: 1.50
+  • sweatsuit            (final: 0.109)
+    TF-IDF: 0.329, Specificity: 0.661, POS: 0.50
+
+bohemian_fashion:
+  • bohemian             (final: 0.441)
+    TF-IDF: 0.429, Specificity: 0.605, POS: 1.70
+  • kimono               (final: 0.090)
+    TF-IDF: 0.338, Specificity: 0.534, POS: 0.50
+  • smocked              (final: 0.080)
+    TF-IDF: 0.176, Specificity: 0.266, POS: 1.70
+  • maxi dress           (final: 0.080)
+    TF-IDF: 0.323, Specificity: 0.308, POS: 0.80
+  • jumpsuit             (final: 0.049)
+    TF-IDF: 0.168, Specificity: 0.264, POS: 1.10
+
+casual:
+  • wrangler             (final: 0.140)
+    TF-IDF: 0.313, Specificity: 0.447, POS: 1.00
+  • coofandy             (final: 0.132)
+    TF-IDF: 0.423, Specificity: 0.312, POS: 1.00
+  • lulu                 (final: 0.127)
+    TF-IDF: 0.252, Specificity: 0.387, POS: 1.30
+  • lululemon            (final: 0.089)
+    TF-IDF: 0.167, Specificity: 0.412, POS: 1.30
+  • arch                 (final: 0.063)
+    TF-IDF: 0.113, Specificity: 0.427, POS: 1.30
+
+college:
+  • backpack             (final: 0.770)
+    TF-IDF: 0.870, Specificity: 0.885, POS: 1.00
+  • laptop               (final: 0.436)
+    TF-IDF: 0.392, Specificity: 0.925, POS: 1.20
+  • compartments         (final: 0.170)
+    TF-IDF: 0.206, Specificity: 0.688, POS: 1.20
+  • books                (final: 0.081)
+    TF-IDF: 0.096, Specificity: 0.704, POS: 1.20
+  • tote                 (final: 0.059)
+    TF-IDF: 0.084, Specificity: 0.587, POS: 1.20
+
+cute:
+  • lululemon            (final: 0.203)
+    TF-IDF: 0.437, Specificity: 0.465, POS: 1.00
+  • tanks                (final: 0.102)
+    TF-IDF: 0.276, Specificity: 0.309, POS: 1.20
+  • lulu                 (final: 0.083)
+    TF-IDF: 0.401, Specificity: 0.415, POS: 0.50
+  • workouts             (final: 0.081)
+    TF-IDF: 0.219, Specificity: 0.371, POS: 1.00
+  • jumpsuit             (final: 0.061)
+    TF-IDF: 0.202, Specificity: 0.252, POS: 1.20
+
+formal:
+  • sequins              (final: 0.629)
+    TF-IDF: 0.528, Specificity: 0.794, POS: 1.50
+  • sequin               (final: 0.213)
+    TF-IDF: 0.261, Specificity: 0.678, POS: 1.20
+  • funeral              (final: 0.160)
+    TF-IDF: 0.239, Specificity: 0.447, POS: 1.50
+  • coofandy             (final: 0.131)
+    TF-IDF: 0.337, Specificity: 0.389, POS: 1.00
+  • polo                 (final: 0.084)
+    TF-IDF: 0.165, Specificity: 0.339, POS: 1.50
+
+gothic:
+  • gothic               (final: 0.367)
+    TF-IDF: 0.492, Specificity: 0.466, POS: 1.60
+  • corset               (final: 0.348)
+    TF-IDF: 0.545, Specificity: 0.532, POS: 1.20
+  • victorian            (final: 0.306)
+    TF-IDF: 0.276, Specificity: 0.693, POS: 1.60
+  • renaissance          (final: 0.190)
+    TF-IDF: 0.288, Specificity: 0.550, POS: 1.20
+  • pirate               (final: 0.157)
+    TF-IDF: 0.224, Specificity: 0.584, POS: 1.20
+
+luxury:
+  • robe                 (final: 1.007)
+    TF-IDF: 0.709, Specificity: 0.887, POS: 1.60
+  • cashmere             (final: 0.398)
+    TF-IDF: 0.279, Specificity: 0.893, POS: 1.60
+  • lenses               (final: 0.167)
+    TF-IDF: 0.217, Specificity: 0.482, POS: 1.60
+  • poncho               (final: 0.123)
+    TF-IDF: 0.122, Specificity: 0.632, POS: 1.60
+  • tool                 (final: 0.123)
+    TF-IDF: 0.171, Specificity: 0.450, POS: 1.60
+
+minimalist:
+  • toe box              (final: 0.378)
+    TF-IDF: 0.380, Specificity: 0.663, POS: 1.50
+  • barefoot shoes       (final: 0.299)
+    TF-IDF: 0.416, Specificity: 0.801, POS: 0.90
+  • wide toe             (final: 0.259)
+    TF-IDF: 0.337, Specificity: 0.592, POS: 1.30
+  • cash                 (final: 0.187)
+    TF-IDF: 0.140, Specificity: 0.892, POS: 1.50
+  • zero drop            (final: 0.156)
+    TF-IDF: 0.249, Specificity: 0.501, POS: 1.25
+
+punk:
+  • harness              (final: 0.429)
+    TF-IDF: 0.397, Specificity: 0.899, POS: 1.20
+  • corset               (final: 0.243)
+    TF-IDF: 0.451, Specificity: 0.448, POS: 1.20
+  • steampunk            (final: 0.214)
+    TF-IDF: 0.336, Specificity: 0.531, POS: 1.20
+  • gothic               (final: 0.182)
+    TF-IDF: 0.331, Specificity: 0.368, POS: 1.50
+  • pirate               (final: 0.149)
+    TF-IDF: 0.234, Specificity: 0.531, POS: 1.20
+
+retro:
+  • lenses               (final: 0.657)
+    TF-IDF: 0.723, Specificity: 0.757, POS: 1.20
+  • lens                 (final: 0.267)
+    TF-IDF: 0.366, Specificity: 0.728, POS: 1.00
+  • polarized            (final: 0.180)
+    TF-IDF: 0.425, Specificity: 0.844, POS: 0.50
+  • glare                (final: 0.154)
+    TF-IDF: 0.160, Specificity: 0.803, POS: 1.20
+  • bowling              (final: 0.088)
+    TF-IDF: 0.090, Specificity: 0.810, POS: 1.20
+
+romantic:
+  • guest                (final: 0.088)
+    TF-IDF: 0.209, Specificity: 0.421, POS: 1.00
+  • wedding guest        (final: 0.079)
+    TF-IDF: 0.202, Specificity: 0.389, POS: 1.00
+  • wedding dress        (final: 0.078)
+    TF-IDF: 0.237, Specificity: 0.331, POS: 1.00
+  • dress wedding        (final: 0.075)
+    TF-IDF: 0.226, Specificity: 0.331, POS: 1.00
+  • maxi dress           (final: 0.074)
+    TF-IDF: 0.198, Specificity: 0.374, POS: 1.00
+
+streetwear:
+  • cargo pants          (final: 0.346)
+    TF-IDF: 0.731, Specificity: 0.338, POS: 1.40
+  • screenshot           (final: 0.340)
+    TF-IDF: 0.310, Specificity: 0.784, POS: 1.40
+  • hop                  (final: 0.169)
+    TF-IDF: 0.242, Specificity: 0.498, POS: 1.40
+  • harajuku             (final: 0.146)
+    TF-IDF: 0.204, Specificity: 0.512, POS: 1.40
+  • hip hop              (final: 0.109)
+    TF-IDF: 0.242, Specificity: 0.323, POS: 1.40
+
+workwear:
+  • dickies              (final: 0.416)
+    TF-IDF: 0.865, Specificity: 0.962, POS: 0.50
+  • carhartt             (final: 0.344)
+    TF-IDF: 0.254, Specificity: 0.902, POS: 1.50
+  • workwear             (final: 0.163)
+    TF-IDF: 0.179, Specificity: 0.911, POS: 1.00
+  • scrub pants          (final: 0.139)
+    TF-IDF: 0.226, Specificity: 0.513, POS: 1.20
+  • scrub top            (final: 0.104)
+    TF-IDF: 0.171, Specificity: 0.451, POS: 1.35
+
+
+STYLE RELATIONSHIPS
+----------------------------------------
+Y2K_Aesthetic: → streetwear (0.89), punk (0.76)
+athleisure: → cute (0.94), casual (0.81)
+bohemian_fashion: → romantic (0.87), formal (0.87)
+casual: → cute (0.85), athleisure (0.81)
+college: → casual (0.34), luxury (0.32)
+cute: → athleisure (0.94), casual (0.85)
+formal: → romantic (0.92), bohemian_fashion (0.87)
+gothic: → punk (0.95), Y2K_Aesthetic (0.73)
+luxury: → casual (0.77), cute (0.67)
+minimalist: → casual (0.76), luxury (0.63)
+punk: → gothic (0.95), Y2K_Aesthetic (0.76)
+retro: → luxury (0.54), casual (0.46)
+romantic: → formal (0.92), bohemian_fashion (0.87)
+streetwear: → Y2K_Aesthetic (0.89), cute (0.73)
+workwear: → casual (0.77), cute (0.70)

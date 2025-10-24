@@ -1,0 +1,19 @@
+{
+    "system":"I will provide you with a semantic knowledge base about fashion. Based on this knowledge base, please create 10 multiple-choice questions and 10 judgment questions to assess students' knowledge level in the field of fashion. You must follow the output format as follows. Ensure that the questions are clear, concise, and relevant to the fashion industry. Avoid using overly complex language or jargon that may confuse students. The questions should cover a range of topics within the fashion domain, including history, trends, designers, and cultural influences. Please provide the questions in the specified JSON format without any additional explanations or comments.",
+    "output_format":{
+    "questions": [
+        {
+            "question": "What is the capital of France?",
+            "expected_answer": "The capital of France is Paris."
+        },
+        {
+            "question": "Who wrote 'To Kill a Mockingbird'?",
+            "expected_answer": "'To Kill a Mockingbird' was written by Harper Lee."
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "expected_answer": "The largest planet in our solar system is Jupiter."
+        }
+    ]
+}
+}

@@ -1,0 +1,96 @@
+{
+  "multiple_choice_questions": [
+    {
+      "question": "Which of the following fashion styles is most closely associated with the 'fairy grunge' aesthetic?",
+      "options": ["Y2K Aesthetic", "Athleisure", "Bohemian", "Minimalist"],
+      "correct_answer": "Y2K Aesthetic"
+    },
+    {
+      "question": "Which brand is closely related to the 'athleisure' fashion style?",
+      "options": ["Lululemon", "Carhartt", "Wrangler", "Dickies"],
+      "correct_answer": "Lululemon"
+    },
+    {
+      "question": "Which style often incorporates 'kimonos' as a key feature?",
+      "options": ["Streetwear", "Bohemian", "Gothic", "Punk"],
+      "correct_answer": "Bohemian"
+    },
+    {
+      "question": "Which term is most associated with 'formal' wear?",
+      "options": ["Lululemon", "Sequins", "Harajuku", "Cargo Pants"],
+      "correct_answer": "Sequins"
+    },
+    {
+      "question": "Which fashion style is known for using 'gothic' elements?",
+      "options": ["Streetwear", "Romantic", "Punk", "Athleisure"],
+      "correct_answer": "Punk"
+    },
+    {
+      "question": "What is a common keyword found in 'luxury' fashion?",
+      "options": ["Robe", "Backpack", "Harajuku", "Tool"],
+      "correct_answer": "Robe"
+    },
+    {
+      "question": "Which of the following is a typical feature of 'minimalist' fashion?",
+      "options": ["Bohemian", "Toe Box", "Backpack", "Sequins"],
+      "correct_answer": "Toe Box"
+    },
+    {
+      "question": "What style often utilizes 'cargo pants'?",
+      "options": ["Streetwear", "Gothic", "Formal", "Luxury"],
+      "correct_answer": "Streetwear"
+    },
+    {
+      "question": "Which style is most likely to include 'corsets'?",
+      "options": ["Gothic", "Bohemian", "Minimalist", "Casual"],
+      "correct_answer": "Gothic"
+    },
+    {
+      "question": "Which accessory is typically associated with 'college' fashion?",
+      "options": ["Maxi Dress", "Backpack", "Corset", "Sequin"],
+      "correct_answer": "Backpack"
+    }
+  ],
+  "judgment_questions": [
+    {
+      "question": "Is 'Harajuku' more commonly associated with Y2K Aesthetic than Minimalist style?",
+      "expected_answer": "Yes, 'Harajuku' is more commonly associated with Y2K Aesthetic."
+    },
+    {
+      "question": "Does the term 'squat' relate more closely to Athleisure than to Luxury?",
+      "expected_answer": "Yes, 'squat' relates more closely to Athleisure."
+    },
+    {
+      "question": "Is 'Victorian' a key feature in Punk fashion?",
+      "expected_answer": "No, 'Victorian' is more related to Gothic fashion."
+    },
+    {
+      "question": "Would 'kimono' be considered a feature of the Casual style?",
+      "expected_answer": "No, 'kimono' is more associated with Bohemian fashion."
+    },
+    {
+      "question": "Is 'wrangler' a notable term in Formal wear?",
+      "expected_answer": "No, 'wrangler' is more associated with Casual fashion."
+    },
+    {
+      "question": "Is 'hip hop' associated with Gothic fashion?",
+      "expected_answer": "No, 'hip hop' is more associated with Streetwear."
+    },
+    {
+      "question": "Can 'maxi dress' be linked to Romantic fashion?",
+      "expected_answer": "Yes, 'maxi dress' can be linked to Romantic fashion."
+    },
+    {
+      "question": "Is 'coofandy' considered a part of Minimalist fashion?",
+      "expected_answer": "No, 'coofandy' is more related to Formal wear."
+    },
+    {
+      "question": "Is 'sequins' a major component in the Cute style?",
+      "expected_answer": "No, 'sequins' is more associated with Formal style."
+    },
+    {
+      "question": "Does 'barefoot shoes' belong to the Streetwear style?",
+      "expected_answer": "No, 'barefoot shoes' is more related to Minimalist fashion."
+    }
+  ]
+}

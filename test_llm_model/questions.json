@@ -1,0 +1,16 @@
+{
+    "questions": [
+        {
+            "question": "What is the capital of France?",
+            "expected_answer": "The capital of France is Paris."
+        },
+        {
+            "question": "Who wrote 'To Kill a Mockingbird'?",
+            "expected_answer": "'To Kill a Mockingbird' was written by Harper Lee."
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "expected_answer": "The largest planet in our solar system is Jupiter."
+        }
+    ]
+}
